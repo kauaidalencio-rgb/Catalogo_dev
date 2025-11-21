@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Filme/Série investigativas</title>
+</head>
+<body>
+    <header>
+        <h1>FILMES/SÉRIES DE INVESTIGAÇÃO</h1>
+        <div class="filtros-container">
+            <div class="search-container">
+                <input type="text" id="campo-busca" placeholder="Pesquisar por título, descrição...">
+                <button id="botao-busca">Buscar</button>
+            </div>
+            <div class="select-filters">
+                <select id="filtro-tipo">
+                    <option value=""> Todos Tipo</option>
+                </select>
+                <select id="filtro-genero">
+                    <option value="">Todos Gênero</option>
+                </select>
+            </div>
+
+            <div class="range-filters">
+                <div class="dual-range-slider">
+                    <div class="values">
+                        <span>Ano Mínimo: <span id="ano-min-valor">1950</span></span>
+                        <span>Ano Máximo: <span id="ano-max-valor">2025</span></span>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider-track"></div>
+                        <input type="range" id="ano-min" min="1950" max="2025" value="1950">
+                        <input type="range" id="ano-max" min="1950" max="2025" value="2025">
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </header>
+
+    <main>
+        <section id="card-container" class="card-container">
+            <!-- Cards serão inseridos aqui pelo JavaScript -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li><a href="https://github.com/kauaidalencio-rgb" target="_blank">GitHub</a></li>
+            <li><a href="https://cursos.alura.com.br/imersoes" target="_blank">Imerção Alura</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

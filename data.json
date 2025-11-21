@@ -1,0 +1,272 @@
+[
+  {
+    "nome": "Seven – Os Sete Crimes Capitais",
+    "tipo": "Filme",
+    "ano": 1995,
+    "duracao": 127,
+    "genero": "Investigação",
+    "descricao": "Dois detetives investigam uma série de assassinatos baseados nos pecados capitais.",
+    "link": "https://www.imdb.com/pt/title/tt0114369/",
+    "imagem": "images/seven.jpg"
+  },
+  {
+    "nome": "True Detective",
+    "tipo": "Série",
+    "ano": 2014,
+    "duracao": 8,
+    "genero": "Psicológico",
+    "descricao": "Cada temporada acompanha uma investigação policial diferente.",
+    "link": "https://www.imdb.com/pt/title/tt2356777/",
+    "imagem": "images/true-detective.jpg"
+  },
+  {
+    "nome": "O Silêncio dos Inocentes",
+    "tipo": "Filme",
+    "ano": 1991,
+    "duracao": 118,
+    "genero": "Suspense Psicológico",
+    "descricao": "Uma jovem agente do FBI precisa consultar um brilhante, mas perigoso, psiquiatra canibal aprisionado para ajudar a rastrear um serial killer conhecido como 'Buffalo Bill'.",
+    "link": "https://www.imdb.com/title/tt0102926/",
+    "imagem": "images/os_silencio_dos_inocentes.jpg"
+  },
+  {
+    "nome": "Zodíaco",
+    "tipo": "Filme",
+    "ano": 2007,
+    "duracao": 157,
+    "genero": "Crime Real/Mistério",
+    "descricao": "Um cartunista, um repórter e dois detetives ficam obcecados em rastrear o notório assassino do Zodíaco, que aterrorizou São Francisco durante os anos 60 e 70.",
+    "link": "https://www.imdb.com/title/tt0443706/",
+    "imagem": "images/zodiaco.jpg"
+  },
+  {
+    "nome": "Mindhunter",
+    "tipo": "Série",
+    "ano": 2017,
+    "duracao": 60,
+    "genero": "Crime/Perfil Psicológico",
+    "descricao": "No final dos anos 70, dois agentes do FBI expandem a ciência forense entrevistando serial killers encarcerados para entender como suas mentes funcionam.",
+    "link": "https://www.imdb.com/title/tt5290382/",
+    "imagem": "images/mindhunter.jpg"
+  },
+  {
+    "nome": "Sherlock",
+    "tipo": "Série",
+    "ano": 2010,
+    "duracao": 90,
+    "genero": "Detetive/Mistério",
+    "descricao": "Uma versão moderna das aventuras de Sherlock Holmes e Dr. Watson, resolvendo os crimes mais complexos de Londres com dedução brilhante e tecnologia.",
+    "link": "https://www.imdb.com/title/tt1475582/",
+    "imagem": "images/sherlock.jpg"
+  },
+  {
+    "nome": "Memórias de um Assassino",
+    "tipo": "Filme",
+    "ano": 2003,
+    "duracao": 132,
+    "genero": "Investigação/Crime Coreano",
+    "descricao": "Dois detetives, um local e outro de Seul, unem forças para capturar um serial killer que aterroriza uma província rural da Coreia do Sul nos anos 80.",
+    "link": "https://www.imdb.com/title/tt0353969/",
+    "imagem": "images/memorias_de_um_assassino.jpg"
+  },
+  {
+    "nome": "Prisoners",
+    "tipo": "Filme",
+    "ano": 2013,
+    "duracao": 153,
+    "genero": "Suspense Policial",
+    "descricao": "Quando duas jovens desaparecem, um pai desesperado se propõe a fazer justiça com as próprias mãos, enquanto um detetive metódico segue pistas limitadas.",
+    "link": "https://www.imdb.com/title/tt1392214/",
+    "imagem": "images/prisoners.jpg"
+  },
+  {
+    "nome": "Fargo",
+    "tipo": "Série",
+    "ano": 2014,
+    "duracao": 60,
+    "genero": "Crime/Mistério",
+    "descricao": "Série antológica onde incidentes criminais bizarros e violentos, com consequências inesperadas, são investigados por oficiais de pequenas cidades do Meio-Oeste americano.",
+    "link": "https://www.imdb.com/title/tt2802850/",
+    "imagem": "images/fargo.jpg"
+  },
+  {
+    "nome": "Chinatown",
+    "tipo": "Filme",
+    "ano": 1974,
+    "duracao": 130,
+    "genero": "Noir/Detetive",
+    "descricao": "O detetive particular Jake Gittes investiga um caso de infidelidade que o leva a uma teia de corrupção, segredos familiares e poder em Los Angeles dos anos 30.",
+    "link": "https://www.imdb.com/title/tt0071315/",
+    "imagem": "images/chinatown.jpg"
+  },
+  {
+    "nome": "The Night Of",
+    "tipo": "Série",
+    "ano": 2016,
+    "duracao": 80,
+    "genero": "Drama Jurídico/Investigação",
+    "descricao": "Após uma noite de festa terminar em assassinato, um estudante universitário de origem paquistanesa é acusado e seu advogado inexperiente deve desvendar o que realmente aconteceu.",
+    "link": "https://www.imdb.com/title/tt2357889/",
+    "imagem": "images/the-night-of.jpg"
+  },
+  {
+    "nome": "A Garota com a Tatuagem de Dragão",
+    "tipo": "Filme",
+    "ano": 2011,
+    "duracao": 158,
+    "genero": "Suspense/Investigação Privada",
+    "descricao": "Um jornalista desacreditado e uma hacker anti-social são contratados para investigar o desaparecimento, décadas atrás, da sobrinha de um poderoso industrial.",
+    "link": "https://www.imdb.com/title/tt1568346/",
+    "imagem": "images/garota-tatuagem-dragao.jpg"
+  },
+  {
+    "nome": "Line of Duty",
+    "tipo": "Série",
+    "ano": 2012,
+    "duracao": 60,
+    "genero": "Policial/Corrupção",
+    "descricao": "Uma unidade anti-corrupção da polícia britânica (AC-12) investiga colegas suspeitos de má conduta e de ligações com o crime organizado.",
+    "link": "https://www.imdb.com/title/tt2303687/",
+    "imagem": "images/line-of-duty.jpg"
+  },
+  {
+    "nome": "LA Confidencial",
+    "tipo": "Filme",
+    "ano": 1997,
+    "duracao": 138,
+    "genero": "Noir/Policial",
+    "descricao": "Três detetives com personalidades distintas investigam uma série de assassinatos ligados à corrupção policial e ao glamour sombrio de Hollywood nos anos 50.",
+    "link": "https://www.imdb.com/title/tt0119468/",
+    "imagem": "images/la-confidencial.jpg"
+  },
+  {
+    "nome": "Broadchurch",
+    "tipo": "Série",
+    "ano": 2013,
+    "duracao": 45,
+    "genero": "Mistério/Investigação Comunitária",
+    "descricao": "O assassinato de um menino em uma pequena cidade costeira expõe segredos obscuros e leva dois detetives a uma investigação tensa, expondo a comunidade local.",
+    "link": "https://www.imdb.com/title/tt2249364/",
+    "imagem": "images/broadchurch.jpg"
+  },
+  {
+    "nome": "Mystic River",
+    "tipo": "Filme",
+    "ano": 2003,
+    "duracao": 138,
+    "genero": "Crime/Drama",
+    "descricao": "Três amigos de infância se reencontram devido a uma tragédia: o assassinato da filha de um deles, desencadeando uma investigação policial e pessoal.",
+    "link": "https://www.imdb.com/title/tt0327056/",
+    "imagem": "images/mystic-river.jpg"
+  },
+  {
+    "nome": "Luther",
+    "tipo": "Série",
+    "ano": 2010,
+    "duracao": 60,
+    "genero": "Suspense Policial",
+    "descricao": "Um detetive brilhante, mas atormentado, trabalha nos casos mais horríveis de Londres, frequentemente lutando contra seus próprios demônios e a moralidade de suas ações.",
+    "link": "https://www.imdb.com/title/tt1474684/",
+    "imagem": "images/luther.jpg"
+  },
+  {
+    "nome": "O Falcão Maltês",
+    "tipo": "Filme",
+    "ano": 1941,
+    "duracao": 100,
+    "genero": "Noir/Detetive",
+    "descricao": "O detetive particular Sam Spade aceita um caso que envolve uma mulher fatal e a busca por uma estatueta de valor inestimável, resultando em traição e assassinato.",
+    "link": "https://www.imdb.com/title/tt0033870/",
+    "imagem": "images/o-falcao-maltes.jpg"
+  },
+  {
+    "nome": "The Sinner",
+    "tipo": "Série",
+    "ano": 2017,
+    "duracao": 45,
+    "genero": "Antologia/Investigação Psicológica",
+    "descricao": "Em cada temporada, o detetive Harry Ambrose investiga por que pessoas aparentemente comuns cometeram crimes brutais e inexplicáveis.",
+    "link": "https://www.imdb.com/title/tt6048596/",
+    "imagem": "images/the-sinner.jpg"
+  },
+  {
+    "nome": "Manhunt: Unabomber",
+    "tipo": "Série",
+    "ano": 2017,
+    "duracao": 45,
+    "genero": "Investigação Federal/Crime Real",
+    "descricao": "A história de como o agente do FBI, Jim Fitzgerald, usou a linguística forense para rastrear e capturar Ted Kaczynski, o notório Unabomber.",
+    "link": "https://www.imdb.com/title/tt5618452/",
+    "imagem": "images/manhunt-unabomber.jpg"
+  },
+  {
+    "nome": "O Segredo dos Seus Olhos",
+    "tipo": "Filme",
+    "ano": 2009,
+    "duracao": 129,
+    "genero": "Cold Case/Drama Policial",
+    "descricao": "Um ex-oficial de justiça, após 25 anos, decide escrever um romance baseado em um caso de assassinato brutal que ele investigou em 1974, reabrindo velhas feridas.",
+    "link": "https://www.imdb.com/title/tt1305801/",
+    "imagem": "images/o-segredo-dos-seus-olhos.jpg"
+  },
+  {
+    "nome": "Spotlight",
+    "tipo": "Filme",
+    "ano": 2015,
+    "duracao": 129,
+    "genero": "Investigação Jornalística",
+    "descricao": "Baseado em fatos reais, a equipe de investigação do jornal Boston Globe revela o encobrimento sistemático de abuso sexual infantil por padres católicos.",
+    "link": "https://www.imdb.com/title/tt1895587/",
+    "imagem": "images/spotlight.jpg"
+  },
+  {
+    "nome": "Bosch",
+    "tipo": "Série",
+    "ano": 2014,
+    "duracao": 45,
+    "genero": "Procedural Policial",
+    "descricao": "O detetive de homicídios Harry Bosch da LAPD persegue a verdade implacavelmente, muitas vezes dobrando as regras para garantir a justiça, lidando com casos frios e crimes atuais.",
+    "link": "https://www.imdb.com/title/tt3502248/",
+    "imagem": "images/bosch.jpg"
+  },
+  {
+    "nome": "Gone Girl",
+    "tipo": "Filme",
+    "ano": 2014,
+    "duracao": 149,
+    "genero": "Suspense/Mistério Conjugal",
+    "descricao": "No seu quinto aniversário de casamento, o marido reporta o desaparecimento da esposa, mas a atenção da mídia revela segredos e levanta a dúvida: ele é o culpado?",
+    "link": "https://www.imdb.com/title/tt2267998/",
+    "imagem": "images/gone-girl.jpg"
+  },
+  {
+    "nome": "Mare of Easttown",
+    "tipo": "Série",
+    "ano": 2021,
+    "duracao": 60,
+    "genero": "Crime Rural/Drama",
+    "descricao": "Uma detetive de uma pequena cidade da Pensilvânia investiga um assassinato local enquanto tenta manter sua vida pessoal de colapso.",
+    "link": "https://www.imdb.com/title/tt10155602/",
+    "imagem": "images/mare-of-easttown.jpg"
+  },
+  {
+    "nome": "The Killing (Forbrydelsen)",
+    "tipo": "Série",
+    "ano": 2007,
+    "duracao": 60,
+    "genero": "Crime Nórdico/Procedural",
+    "descricao": "Uma detetive em Copenhague é forçada a adiar sua mudança para dar prosseguimento a um brutal caso de assassinato que tem ramificações políticas e sociais complexas.",
+    "link": "https://www.imdb.com/title/tt0826760/",
+    "imagem": "images/the-killing-dinamarca.jpg"
+  },
+  {
+    "nome": "Infiltrado (The Departed)",
+    "tipo": "Filme",
+    "ano": 2006,
+    "duracao": 151,
+    "genero": "Policial/Máfia/Suspense",
+    "descricao": "Um policial se infiltra na máfia irlandesa de Boston, enquanto um mafioso se infiltra na polícia, levando a uma perigosa caça ao rato entre os dois lados.",
+    "link": "https://www.imdb.com/title/tt0407887/",
+    "imagem": "images/infiltrado.jpg"
+  }
+]
