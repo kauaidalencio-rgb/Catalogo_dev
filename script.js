@@ -166,9 +166,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         <strong>Ano:</strong> ${item.ano || 'N/A'} • 
                         <strong>Tipo:</strong> ${item.tipo || 'N/A'} • 
                         <strong>Gênero:</strong> ${item.genero || 'N/A'}
+                        <strong>Avaliação:</strong> ${item.avaliacao || 'N/A'}
                     </p>
                     <p>${item.descricao || 'Sem descrição.'}</p>
-                    ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer">Treiler do/da ${item.tipo || 'N/A'} </a>` : ''}
+                    ${item.link 
+        ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer">
+             Trailer ${item.tipo === 'Filme' ? 'do Filme' : item.tipo === 'Série' ? 'da Série' : ''}
+           </a>`
+        : ''
+    }
                 </div>
             `;
             cardContainer.appendChild(card);
