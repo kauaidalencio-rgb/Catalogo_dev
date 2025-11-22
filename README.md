@@ -1,148 +1,88 @@
-# “Catálogo de Filmes e Séries Investigativas”
-# 1. Visão Geral do Projeto
+# Catálogo Interativo de Filmes e Séries Investigativas
 
-O projeto consiste em uma aplicação web interativa que apresenta um catálogo de filmes e séries do gênero investigativo, permitindo ao usuário explorar, pesquisar e filtrar obras de forma dinâmica e intuitiva.
-A interface foi projetada para ser responsiva, moderna e de fácil navegação, oferecendo uma experiência imersiva para quem deseja descobrir produções relacionadas a investigação, crime e mistério.
+Este projeto consiste em uma aplicação web interativa desenvolvida com HTML, CSS, JavaScript e JSON, cujo objetivo principal é apresentar um catálogo organizado de filmes e séries do gênero investigativo, permitindo ao usuário explorar títulos, filtrar conteúdos e acessar informações detalhadas de forma rápida, intuitiva e visualmente agradável.
 
-# 2. Objetivo do Projeto
+# Objetivo Geral
 
-O objetivo principal é organizar e apresentar informações de forma eficiente, utilizando recursos de filtragem avançada para facilitar a busca por obras específicas.
-O sistema permite ao usuário:
+Oferecer uma plataforma leve e responsiva onde usuários possam pesquisar, filtrar e descobrir obras de investigação, abrangendo filmes, séries, obras policiais, suspense psicológico e narrativas baseadas em crimes reais.
 
-Encontrar filmes e séries por nome, tipo, gênero, ano ou descrição.
+Funcionalidades Principais
+# 1. Sistema de Busca Dinâmica
 
-Visualizar detalhes como capa, descrição, ano de lançamento e gênero.
+Campo de pesquisa que permite localizar títulos por nome ou descrição.
 
-Acessar links externos como trailers ou páginas oficiais.
+A filtragem é instantânea, atualizando os resultados conforme o usuário digita.
 
-O projeto demonstra domínio em HTML, CSS, JavaScript e JSON, aplicando boas práticas de estrutura, organização e manipulação de dados.
+# 2. Filtros Avançados
 
-# 3. Funcionalidades do Sistema
-✔️ Barra de Pesquisa Inteligente
+Filtro por tipo: Filme ou Série.
 
-Permite buscar por:
+Filtro por gênero: Mistério, Crime Real, Noir, Suspense Policial, etc.
 
-Título
+Filtro por faixa de ano, incluindo:
 
-Descrição
+Controle dual range slider totalmente funcional.
 
-Palavras-chave
+Visualização do ano mínimo e máximo selecionado.
 
-A busca é feita em tempo real usando JavaScript.
+Barra dinâmica com gradiente indicando a área ativa da seleção.
 
-# ✔️ Filtros Dinâmicos
+# 3. Cards Dinâmicos Gerados por JavaScript
 
-Os filtros são gerados automaticamente com base no conteúdo do arquivo JSON:
+Cada obra é exibida por meio de um card, contendo:
 
-Filtro por Tipo: Filme ou Série
+Capa da obra (com fallback automático em caso de erro).
 
-Filtro por Gênero: Suspense, Crime, Mistério, etc.
+Título e ano de lançamento.
 
-Os filtros são criados dinamicamente para garantir escalabilidade.
+Tipo (Filme/Série), gênero e avaliação.
 
-# ✔️ Filtro Duplo de Ano (Dual Range Slider)
+Descrição detalhada.
 
-O usuário pode selecionar:
+Link para trailer ou página oficial (IMDB), quando disponível.
 
-Ano mínimo
+Os cards tornam a navegação fluida e melhoram a experiência do usuário.
 
-Ano máximo
+# 4. Dados Carregados de um Arquivo JSON
 
-A barra de seleção é visualmente personalizada, exibindo um gradiente dinâmico que destaca a faixa ativa.
+O arquivo data.json contém todas as informações das obras.
 
-# ✔️ Renderização Automática de Cards
+O JavaScript realiza o fetch dos dados e popula a interface dinamicamente.
 
-Os cards exibem:
+Essa separação dos dados permite fácil atualização e expansão do catálogo.
 
-Imagem da capa
+# 5. Layout Responsivo e Acessível
 
-Nome da obra
+Interface adaptada para diversos tamanhos de tela (mobile, tablet e desktop).
 
-Ano de lançamento
+Uso de CSS moderno, variáveis de cor, grid flexível, sombras e animações.
 
-Tipo (Filme/Série)
+Cabeçalho fixo e filtros centralizados para facilitar o uso.
 
-Gênero
+Tecnologias Utilizadas
 
-Descrição
+HTML5 – Estrutura semântica e acessível da página.
 
-Link externo para trailer
+CSS3 – Estilização avançada, responsividade, variáveis CSS e elementos interativos.
 
-Os cards são gerados inteiramente via JavaScript, com tratamento de erros, lazy loading e fallback de imagem.
+JavaScript – Lógica de filtragem, manipulação de DOM, carregamento de dados e atualização dos cards.
 
-# ✔️ Carregamento e Leitura via JSON
+JSON – Organização dos dados dos filmes e séries.
 
-Os dados das obras são armazenados em data.json, facilitando:
+Google Fonts (Quicksand) – Melhor legibilidade e apelo visual.
 
-Atualizações rápidas
+Diferenciais do Projeto
 
-Organização clara
+Interface limpa e profissional inspirada em plataformas de streaming.
 
-Separação entre dados e código
+Filtros combinados altamente eficientes (tipo + gênero + faixa de ano + busca).
 
-# 4. Tecnologias Utilizadas
-HTML5
+Cards detalhados que destacam informações relevantes.
 
-Estrutura do site
+Código modular, organizado e facilmente escalável.
 
-Organização semântica
+Experiência otimizada para usuários em dispositivos móveis.
 
-Conteúdo básico dos elementos
+# Observação Importante
 
-CSS3
-
-Tema escuro moderno inspirado em interfaces investigativas
-
-Responsividade completa
-
-Animações e efeitos nos cards
-
-Estilização avançada do dual range slider
-
-JavaScript (ES6+)
-
-Manipulação do DOM
-
-Carregamento do JSON
-
-Sistema de busca
-
-Filtros combinados
-
-Renderização dinâmica
-
-JSON
-
-Armazenamento estruturado das obras
-
-Fácil expansão e manutenção
-
-# 5. Diferenciais Técnicos do Projeto
-
-Filtros inteligentes que combinam múltiplos critérios simultaneamente
-(nome, tipo, gênero, ano mínimo e máximo).
-
-Interface responsiva para desktop e mobile.
-
-Slider de ano com gradiente dinâmico, visualmente destacado.
-
-Cards elegantes com hover animado e carregamento otimizado.
-
-Fallback de imagem automático caso o arquivo falhe.
-
-Código organizado e modular, facilitando manutenção e expansão.
-
-Dados separados da lógica, permitindo adicionar novas obras sem tocar no código principal.
-
-# 6. Público-Alvo
-
-Amantes de filmes e séries investigativas
-
-Estudantes e pesquisadores interessados no gênero
-
-Usuários que buscam recomendações organizadas e acessíveis
-
-7. Conclusão
-
-Este projeto demonstra o uso integrado de tecnologias web modernas para criar uma aplicação funcional, visualmente atraente e tecnicamente avançada.
-A combinação de filtros dinâmicos, organização de dados em JSON e interface responsiva torna o sistema eficiente e ideal para competições, trabalhos escolares ou como base para projetos maiores.
+As capas dos filmes e séries exibidas foram geradas por IA, respeitando as regras de direitos autorais da competição, evitando o uso de imagens protegidas.
