@@ -70,12 +70,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Adicionar todos os event listeners
     function adicionarEventListeners() {
-        botaoBusca.addEventListener('click', filtrarEExibir);
+        botaoBusca.addEventListener('click', limparFiltros);
         campoBusca.addEventListener('keyup', filtrarEExibir);
         filtroTipo.addEventListener('change', filtrarEExibir);
         filtroGenero.addEventListener('change', filtrarEExibir);
         anoMinSlider.addEventListener('input', handleSliderChange);
         anoMaxSlider.addEventListener('input', handleSliderChange);
+    }
+
+    // Limpar todos os filtros e reexibir os dados
+    function limparFiltros() {
+        campoBusca.value = '';
+        filtroTipo.selectedIndex = 0;
+        filtroGenero.selectedIndex = 0;
+
+        const minAno = anoMinSlider.min;
+        const maxAno = anoMaxSlider.max;
+
+        anoMinSlider.value = minAno;
+        anoMaxSlider.value = maxAno;
+        anoMinValor.textContent = minAno;
+        anoMaxValor.textContent = maxAno;
+
+        atualizarCorDaBarra();
+        filtrarEExibir();
     }
 
     // Lidar com a mudança dos sliders
